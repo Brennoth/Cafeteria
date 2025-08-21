@@ -362,7 +362,7 @@ section {
 /*FOOTER-FIM*/
 
 /*TABLET*/
-@media screen and (width >=768px) and (width <=1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
 
     /*TABLET*/
     .header_container {
@@ -395,11 +395,10 @@ section {
         flex-direction: column;
     }
 }
-
 /*TABLET*/
 
 
-@media screen and (width <=767px) {
+@media screen and (max-width: 767px) {
 
     /*-----------hamburguer---------*/
     .header_container{/*essas 3 tags, serviou para mudar o posicionamento do cart e lupa, referente ao menu,pq estava o menu no centro e esas duas imgs do lado direito*/

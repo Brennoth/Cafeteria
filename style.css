@@ -525,4 +525,7 @@ section {
     .menu_container, .avaliações_container{
         flex-direction: column;
     }
+    .endereco_maps iframe{
+        width: 100%;
+    }
 }

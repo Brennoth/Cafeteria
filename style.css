@@ -408,7 +408,6 @@ section {
     .header_cart-search{
         order: 1;
         gap: 1rem;
-        margin-left: 8rem;
     }
     .header_cart-search img{
         width: 3rem;

@@ -484,6 +484,7 @@ section {
         height: 0;
         overflow: hidden;
         transition: all 0.2s ease-in-out;
+        z-index: 1;
         
     } 
     
@@ -503,8 +504,11 @@ section {
         transition: all 0.2s ease-in-out;
     }
     .menu-btn{
-        clip-path: inset(100%);
+        /* clip-path: inset(100%); */
         position: absolute;
+        width: 1px;
+        height: 1px;
+        opacity: 0;
     }
     /*HAMBURGUER*/
     main{

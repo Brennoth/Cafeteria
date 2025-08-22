@@ -404,11 +404,23 @@ section {
     .header_container{/*essas 3 tags, serviou para mudar o posicionamento do cart e lupa, referente ao menu,pq estava o menu no centro e esas duas imgs do lado direito*/
         align-items: flex-start;
         padding: 1rem;
+        justify-content: flex-start;
     }
     .header_cart-search{
         order: 1;
         gap: 1rem;
-        margin-left: 8rem;
+        /* margin-left: 8rem; */
+    }
+    .header_cart-search{
+        flex: 1 0 0;
+        flex-direction: row-reverse;
+        margin-right: 3rem;
+    }
+    .header_cart-search > a:nth-child(1){
+        order: 1;
+    }
+    .header_cart-search > a:nth-child(2) {
+        order: 0;
     }
     .header_cart-search img{
         width: 3rem;
@@ -440,6 +452,7 @@ section {
     }
     .header_nav > ul > li a{
         padding: 2rem;
+        color: ;
     }
     .header_nav > ul > li > a:hover{
         color: white;
@@ -477,7 +490,7 @@ section {
     }
     .header_nav ul{
         position: absolute;
-        background-color: #ccccccda;
+        background-color: #ccccccbe;
         right: 0;
         left: 0%;
         top: 9.5rem;

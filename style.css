@@ -542,4 +542,8 @@ section {
     .endereco_maps iframe{
         width: 100%;
     }
+    .menu_content:hover, .avaliações_container_content:hover{
+        background-color: unset;
+        transition: none;
+    }
 }
